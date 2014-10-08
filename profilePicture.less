@@ -1,0 +1,44 @@
+.ef-profile-image {
+  font-size: 15px;
+  
+  > div {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: rgb(211, 211, 211);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+    vertical-align: top;
+    text-align: center;
+    position: relative;
+  }
+
+  .ef-initials {
+    display: inline-block;
+    line-height: 50px;
+  }
+
+  a {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+  }
+}
+
+.ef-profile-image.check {
+  .ef-check {
+    display: inherit;
+    color: green;
+  }
+}
+
+.ef-profile-image.times {
+  .ef-times {
+    display: inherit;
+    color: red;
+  }
+}

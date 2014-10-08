@@ -1,0 +1,23 @@
+{
+  "name": "profilePicture",
+  "version": "0.0.0",
+  "description": "profilePicture ==============",
+  "main": "profilePicture.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdbranth/profilePicture.git"
+  },
+  "author": "Matthew Branthwaite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdbranth/profilePicture/issues"
+  },
+  "homepage": "https://github.com/mdbranth/profilePicture",
+  "devDependencies": {
+    "browserify": "2.25.0",
+    "less": "1.6.1"
+  }
+}
